@@ -58,10 +58,11 @@ input {
 }
 .input-button{
     background-color: #CE9601;
-    padding: 10px;
+    padding: 15px;
     text-align:center;
     color:white;
-    font-size: 12px;
+    font-size: 12px; 
+    border: none;
     
 }
 
@@ -128,7 +129,9 @@ input {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 50px;
-        grid-row-gap: 0px;
+        grid-row-gap: 0px; 
+        margin: auto;
+        margin-bottom: 5rem;
         
 } 
 
@@ -138,23 +141,30 @@ input {
 
 .input {
     background-color: black; 
-    height: 40vh; 
-    margin-bottom: 5rem; 
+    height: 60vh; 
+    margin-bottom: 2rem; 
     margin-left: 8rem; 
-    padding-top: 5rem;
+    padding-top: 2rem; 
+    margin: auto; 
+    width: 90%;
 }
    
 .input-text{
     color: white; 
     justify-content: center; 
-    margin-left: 10%; 
-    margin-top: 3rem;
+    margin-left: 3rem; 
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
 } 
 
 .input-field{
     display: flex; 
-    margin-left: 10%; 
-    margin-right: 10%; 
+    margin-left: 15%; 
+    margin-right: 15%; 
+    /* gap: 2rem;  */
+    height: 10pxp;
+
+   
 
 
 }   
@@ -181,6 +191,35 @@ input {
     margin-left: 10px;
 }
 
+.grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 35px;
+        grid-row-gap: 0px;
+        margin-top: 5rem;
+        margin-left: 30%;
+        height: 50vh;
+    
+} 
+
+.flex-footer{
+    display: flex; 
+    background-color: rgb(49, 49, 49);
+    height: auto; 
+    margin-top: 15rem;
+} 
+
+.seller-success {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        padding-left: 10%; 
+        margin-top: 5%;
+        
+}
 
 
 
