@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(13, 78, 4, 0.726);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#nav-item {
+    display: flex;
+    gap: 15px;
+
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../asset/images/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%; 
+     background-color: rgba(5, 100, 5, 0.76);   
+    
+    padding: 40px; 
+    margin-left: 30%; 
+    margin-right: 30%;
+} 
+
+input {
+    width: 70%; 
+    padding: 10px;
+}
+
+.input-bg{
+    /* padding:35px; */
+    width:80%;
+}
+.input-button{
+    background-color: #CE9601;
+    padding: 10px;
+    text-align:center;
+    color:white;
+    font-size: 12px;
+    
+}
+
+.main-container{
+    width: 50%;
+    margin: auto;
+}
+
+.main-container h1{
+    text-align: center; 
+    font-size: 50px; 
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+} 
+
+.flex-container{
+    display: flex; 
+    gap: 15px; 
+    margin-bottom: 1rem;
+
+}
+
+.text-container{
+    width: 50%;
+    gap: 15px; 
+    margin-bottom: 3rem;
+} 
+
+.image-container{
+    width: 50%;
+} 
+
+.main-section{
+    width: 100%;
+} 
+
+.image-container img{
+    width: 100%;
+} 
+
+.text-container h2{
+    margin-bottom: 1.5rem; 
+
+} 
+
+.text-container p{
+    line-height: 1.6;
+    margin-bottom: 1.2rem; 
+    color: gray;
+}  
+
+.text-container a{
+    color: rgba(13, 78, 4, 0.726);
+} 
+
+.home-items img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.flex-homes{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        
+} 
+
+.flex-homes a{
+    color: rgb(9, 126, 24);
+} 
+
+.input {
+    background-color: black; 
+    height: 40vh; 
+    margin-bottom: 5rem; 
+    margin-left: 8rem; 
+    padding-top: 5rem;
+}
+   
+.input-text{
+    color: white; 
+    justify-content: center; 
+    margin-left: 10%; 
+    margin-top: 3rem;
+} 
+
+.input-field{
+    display: flex; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+
+
+}   
+
+.input-text p{
+    color: white; 
+    padding-top: 1rem; 
+    text-align: center; 
+
+
+} 
+
+.input-text h1{
+    font-size: 50px; 
+    text-align: center;
+    
+} 
+
+.name {
+    margin-right: 10px;
+} 
+
+.email{
+    margin-left: 10px;
+}
+
+
+
+
